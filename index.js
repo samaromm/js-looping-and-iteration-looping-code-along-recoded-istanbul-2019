@@ -6,7 +6,7 @@ function writeCards(names,event){
   let a=[];
   for(let i=0; i<names.length;i++){
     let str=names[i].toString();
-    let s='Thank you, '+ str+', for the wonderful '+event +' gift';
+    let s='Thank you, '+ str+', for the wonderful '+event +' gift!';
     a.push(s);
   }
   return a;
