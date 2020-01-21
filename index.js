@@ -11,3 +11,9 @@ function writeCards(names,event){
   }
   return a;
 }
+
+function countDown(n){
+  while(n>=0){
+    console.log(n--);
+  }
+}
