@@ -3,7 +3,7 @@
 writeCards(["Ada", "Brendan", "Ali"], "birthday");
 
 function writeCards(names,event){
-  let a;
+  let a=[];
   for(let i=0; i<names.length;i++){
     let str=names[i].toString();
     let s='Thank you, '+ str+', for the wonderful '+event +' gift';
