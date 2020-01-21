@@ -9,4 +9,5 @@ function writeCards(names,event){
     let s='Thank you, '+ str+', for the wonderful '+event +' gift';
     a.push(s);
   }
+  return a;
 }
